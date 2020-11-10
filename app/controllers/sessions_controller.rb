@@ -13,6 +13,10 @@ class SessionsController < ApplicationController
     end
   end
 
+  def destroy
+    log_out
+  end
+
   private
   def log_in(user)
     session[:user_id] = user.id
