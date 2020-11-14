@@ -1,0 +1,2 @@
+class AddChangesToTopic < ApplicationRecord
+end
