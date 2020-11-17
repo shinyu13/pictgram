@@ -1,13 +1,14 @@
 class CommentsController < ApplicationController
   
   def index
-    @comment = Comment.all
+    @comment = Comment.new
   end
   
   def create
     @comment = current_user.comments.new(comment_params)
     if @comment.save
-      redirect_to topics_path, success: "コメントが保存されました"
+      flash.now[:sucess] =  "コメントが保存されました"
+      redirect_to topics_path
     else
       flash.now[:danger] = "コメントに失敗しました"
       Rails.logger.info(@comment.errors.inspect)
@@ -17,6 +18,6 @@ class CommentsController < ApplicationController
   
   private
   def comment_params
-    params.require(:comment).permit(:contents, :topic_id)
+    params.require(:comment).permit(:content, :topic_id)
   end
 end

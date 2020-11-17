@@ -1,9 +1,9 @@
 class Comment < ApplicationRecord
   validates :user_id, presence: true
   validates :topic_id, presence: true
-  validates :contents, presence: true
+  validates :content, presence: true
   
-  belongs_to :topics
+  belongs_to :topic
   belongs_to :user
   
 end

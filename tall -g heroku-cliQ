@@ -1,0 +1,922 @@
+    1  printf "install: --no-rdoc --no-ri\nupdate:  --no-rdoc --no-ri\n" >> ~/.gemrc
+    2  gem install rails -v 5.2.0
+    3  sudo service mysqld stop
+    4  sudo yum -y erase mysql-config mysql55-server mysql55-libs mysql55
+    5  sudo yum -y install mysql57-server mysql57
+    6  sudo service mysqld start
+    7  sudo chkconfig mysqld on
+    8  sudo yum install -y mysql-devel
+    9  rails -v
+   10  pwd
+   11  mkdir workspace
+   12  cd workspace
+   13  cd ..
+   14  cd ~
+   15  cd
+   16  mkdir space
+   17  ls
+   18  git config --global user.name "Shinya"
+   19  git config --global user.email "shinya@yup.jp"
+   20  git config -l
+   21  mkdir gitsample
+   22  cd gitsample
+   23  git init
+   24  touch sample
+   25  git add .
+   26  git commit -m "first commit"
+   27  git log
+   28  touch sample2.txt
+   29  git add .
+   30  git commit -m "second commit"
+   31  git log
+   32  cd ~/.ssh
+   33  ssh-keygen
+   34  cat ~/.ssh/id_rsa.pub
+   35  ssh -T git@github.com
+   36  cd ~/environment/gitsample
+   37  git remote add origin git@github.com:shinyup213
+   38  /
+   39  glowing-palm-tree
+   40  shinyup213
+   41  /
+   42  glowing-palm-tree
+   43  git remote add origin git@github.com:shinyup213/glowing-palm-tree.git
+   44  git push -u origin master
+   45  cd ~/environment/gitsample
+   46  git remote add origin git@github.com:shinyup213/glowing-palm-tree.git
+   47  git push -u origin master
+   48  cd ~/environment/gitsample
+   49  cd ~/environment/glowing-plm-tree
+   50  git remote add origin git@github.com:shinyup213/glowing-palm-tree.git
+   51  git push -u origin master
+   52  git config --global user.nam "Shinya"
+   53  git config --global user.email "shinya@yup.jp"
+   54  git init
+   55  git brunch
+   56  git branch
+   57  master
+   58  cd ~/environment/gitsample
+   59   cd ~/.ssh
+   60  ssh-keygen -t rsa
+   61  ssh -T git@github.com
+   62  git init
+   63  git add -A
+   64  git commit "first commit"
+   65  git commit -m "first commit"
+   66  git log
+   67  git push
+   68  git remote add origin https://github.com/shinyup213/glowing-palm-tree.git
+   69  git push -u origin master
+   70  mkdir sample2
+   71  cd sample2
+   72  pwd
+   73  mkdir sample2
+   74  cd sample2
+   75  pwd
+   76  git init
+   77  git add -A
+   78  touch sample2 .tex
+   79  git add -A
+   80  git commit -m "second commmit"
+   81  git init
+   82  git add -A
+   83  git commit -m "second commmit"
+   84  git push
+   85  git remote add origin https://github.com/shinyup213/sample2.git
+   86  git push -u origin master
+   87  cd ~/environment
+   88  mkdir ruby_projects
+   89  cd ruby_projects
+   90  touch hello.rb
+   91  cd hello.rb
+   92  puts "hello rubby cd hello.rbcd hello.rbcd hello.rb"
+   93  cd
+   94  rubby hello.rb
+   95  $ cd ~/environment
+   96  $ mkdir ruby_projects
+   97  $ cd ruby_projects
+   98  $ touch hello.rb
+   99  cd ~/environment
+  100  mkdir ruby_projects
+  101  cd ruby_projects
+  102  touch hello.rb
+  103  puts "hello ruby touch hello.rbtouch hello.rbtouch hello.rb"
+  104  ruby hello.rb
+  105  cd ~/hello.rb
+  106  cd hello.ruby
+  107  cd ruby_projects
+  108  cd
+  109  cd ruby_projects
+  110  cd ruby_projects
+  111  ruby hello.rb
+  112  pwd
+  113  mkdir workspace
+  114  cd workspace
+  115  cd ..
+  116  cd ~
+  117  makdir space
+  118  mkdir space
+  119  ls
+  120  pwd
+  121  mkdir workspace
+  122  cd workspace
+  123  mkdir space1
+  124  cd space1
+  125  cd ~
+  126  cd space1
+  127  ls
+  128  git config --global user.name "shinya"
+  129  git config --global user.email "shinya@yup.jp"
+  130  git config -l
+  131  mkdir gitsample
+  132  cd gitsample
+  133  git init
+  134  touch sample
+  135  git add .
+  136  git commit -m "first commit"
+  137  git log
+  138  touch sample2.txt
+  139  git add .
+  140  git commit -m "second commit"
+  141  git log
+  142  cd ~/.ssh
+  143  ssh-keygen
+  144  cat ~/.ssh/id_rsa.pub
+  145  ssh -T git@github.com
+  146  cd ~/environment/gitsample
+  147  git remote add origin git@github.com:shinyup213/sample.git
+  148  git push -u origin master
+  149  mkdir smaple2
+  150  cd sample2
+  151  git config --global user.name "shinya"
+  152  git config --global user.email "shinya@yup.jp"
+  153  git config -l
+  154  mkdir gitsample
+  155  cd gitsample
+  156  git init
+  157  touch sample2
+  158  git add.
+  159  git add .
+  160  git commit -m "こんにちは＂
+  161  gti config --global user.name "shinya"
+  162  git config --global user.name "shinya"
+  163  git config --global user.email "shinya@yup.jp"
+  164  git config -l
+  165  mkdir gitsample
+  166  cd gitsample
+  167  git init
+  168  touch sample2
+  169  git add .
+  170  git commit -m "third commit"
+  171  git log
+  172  cd ~/.ssh
+  173  ssh-keygen
+  174  cat ~/.ssh/id_rsa.pub
+  175  ssh -T git@github.com
+  176  cd ~/environment/gitsample
+  177  git remote add origin git@github.com:shinyup213/smaple2.git
+  178  git push -u origin master
+  179  ruby hello.rb
+  180  cd ~/environment
+  181  mkdir ruby_projects
+  182  cd ruby_projects
+  183  touch hello.rb
+  184  ruby hello.rb
+  185  rails new pictgram -d mysql
+  186  rails new AppName
+  187  raols new AppName -d mysql
+  188  rails new AppName -d mysql
+  189  rails new pictgram -d mysql
+  190  cd pictgram
+  191  rails db:create
+  192  gem install "devise"
+  193  gem 'jquery-rails'
+  194  bundle install
+  195  gem 'pry-rails'
+  196    gem 'pry-doc'
+  197    gem 'pry-byebug'
+  198    gem 'pry-stack_explorer'
+  199  bundle install
+  200  gem install "devise"
+  201  bundle install
+  202  rails s
+  203  bundle instal
+  204  bundle install
+  205  rails new pictgram -d mysql
+  206  rails new AppName
+  207  rails new AppName -d mysql
+  208  rails new pictgram -d mysql
+  209  cd pictgram
+  210  rails db:create
+  211  gem install "devise"
+  212  bundle install
+  213  rails g controller pages index
+  214  rails new pictgram -d mysql
+  215  rails new AppName
+  216  rails new AppName -d mysql
+  217  rails new pictgram -d mysql
+  218  cd pictgram
+  219  rails db:create
+  220  gem install "devise"
+  221  bundle install
+  222  sudo yum install -y mysql-devel
+  223  bundle install
+  224  cd pictgram
+  225  bundle install
+  226  cd config
+  227  rails g controller pages index
+  228  bundle install
+  229  cd pictgram
+  230  bundel install
+  231  bundle install
+  232  cd pictgram
+  233  rails db:create
+  234  rails s
+  235  cd pictgram
+  236  rails s
+  237  rails db:create
+  238  rails s
+  239  rails new pictgram -d mysql
+  240  rails new AppName
+  241  rails new AppName -d mysql
+  242  rails new pictgram -d mysql
+  243  gem install "devise"
+  244  cd pictgram
+  245  rails db:create
+  246  gem install "devise"
+  247  cd pictgram
+  248  bundle install
+  249  rails g controller pages index
+  250  rails s
+  251  bundle install
+  252  cd pictgram
+  253  bundle install
+  254  rails s
+  255  cd pictgram
+  256  rails s
+  257  bundle install
+  258  ps aux | grep rails
+  259  rails s
+  260  cd pictgram
+  261  rails db:create
+  262  rails s
+  263  rails new pictgram -d mysql
+  264  rails new AppName
+  265  rails new AppName -d mysql
+  266  rails new pictgram -d mysql
+  267  cd pictgram
+  268  rails db:create
+  269  gem install "devise"
+  270  cd pictgram
+  271  bundle install
+  272  cd pictgram
+  273  rails g controller pages index
+  274  cd pictgram
+  275  bundle install
+  276  rails s
+  277  rails new pictgram -d mysql
+  278  rails new AppName
+  279  rails new AppName -d mysql
+  280  cd pictgram
+  281  rails db:create
+  282  rails s
+  283  gem install "devise"
+  284   bundle install
+  285  cd pictgram
+  286  rails g controller pages index
+  287  rails g controller pages index
+  288  rails new pictgram -d mysql
+  289  rails new AppName
+  290  rails new AppName -d mysql
+  291  rails new pictgram -d mysql
+  292  gem install "devise"
+  293  cd pictgram
+  294  bundle install
+  295  rails g controller pages index
+  296  rails new pictgram -d mysql
+  297  rails new AppName
+  298  rails new AppName -d mysql
+  299  rails new pictgram -d mysql
+  300  cd pictgram
+  301  rails db:create
+  302  rails s
+  303  bundle instal
+  304  rails g controller pages index
+  305  rails new pictgram -d mysql
+  306  rails new AppName
+  307  rails new AppName -d mysql
+  308  rails new pictgram -d mysql
+  309  cd pictgram
+  310  rails db:create
+  311  rails s
+  312  gem install "devise"
+  313  bundle install
+  314  root 'pages#index'
+  315  root 'pages#index'
+  316  rails g controller pages index
+  317  rails g controller pages index
+  318  rails new pictgram -d mysql
+  319  rails new AppName
+  320  rails new AppName -d mysql
+  321  rails new pictgram -d mysql
+  322  cd pictgram
+  323  rails db:create
+  324  rails s
+  325  gem install
+  326  gem install "devise"
+  327  bundke install
+  328  bundle install
+  329  rails g controller pages index
+  330  cd pictgram
+  331  rails g controller pages index
+  332  rails g controller pages index
+  333  rails new pictgram -d mysql
+  334  rails new AppName
+  335  rails new AppName -d mysql
+  336  cd pictgram
+  337  rails db:create
+  338  rails s
+  339  gem install "devise"
+  340  bundle install
+  341  rails g controller pages index
+  342  rails g controller pages index
+  343  rails new pictgram -d mysql
+  344  rails new AppName
+  345  rails new AppName -d mysql
+  346  rails picygram -d mysql
+  347  cd pictgram
+  348  rails db:create
+  349  rails s
+  350  gem install "devise"
+  351  bundle install
+  352  rails s
+  353  cd pictgram
+  354  rails s
+  355  rails new pictgram -d mysql
+  356  rails new AppName
+  357  rails new AppName -d mysql
+  358  rails new pictgram -d mysql
+  359  cd pictgram
+  360  rails db:create
+  361  gem install "devise"
+  362  cd pictgram
+  363  bundle install
+  364  rails g controller pages index
+  365  bundle install
+  366  rails s
+  367  rails s
+  368  cd pictgram
+  369  bundle install
+  370  rails s
+  371  cd
+  372  rails s
+  373  bundle install
+  374  cd pictgram
+  375  bundle install
+  376  cd pictgaram
+  377  cd pictgram
+  378  rails s
+  379  rails s
+  380  cd pictgram
+  381  cd pictgram
+  382  rails g controller Users new
+  383  rails g model User
+  384  rails db:migrate
+  385  rails db:rollback
+  386  rails db:migrate
+  387  rails c
+  388  cd pictgram
+  389  rails c
+  390  cd pictgram
+  391  rails c
+  392  cd pictgram
+  393  rails db:migrate
+  394  rails g model User
+  395  cd db:migrate
+  396  rails db:migrate
+  397   rails db:migrate
+  398  rails c
+  399  rails s
+  400  cd pictgram
+  401  rails g model User
+  402  rails db:migrate
+  403  t.string :name
+  404        t.string :email
+  405  rails db:migrate
+  406   rails db:rollback
+  407  rails db:migrate
+  408  rails c
+  409  rails s
+  410  rails c
+  411  rails s
+  412  cd pictgarm
+  413  cd pictgram
+  414  cd pictgram
+  415  rails s
+  416  cd pictgram
+  417  rails routes
+  418  cd pictgram
+  419  rails s
+  420  rails c
+  421  rails s
+  422  cd picgram
+  423  cd pictgram
+  424  rails routes
+  425  cd pictgarm
+  426  cd pictgram
+  427  rails s
+  428  cd pictgaram
+  429  cd picygram
+  430  cd pictgram
+  431  rails s
+  432  cd pictgram
+  433  rails g migration add_passward_digest_of_users
+  434  rails db:migrate
+  435  bundle install
+  436  cd pictgram
+  437  rails s
+  438  rails generate migration create
+  439  rails db:migrate
+  440  rails s
+  441  cd pictgram
+  442  rails g migration add_password_digest_to_users password_digest:string
+  443  rails db:migrate
+  444  bundle install
+  445  rails s
+  446  cd pictgram
+  447  git init
+  448  git add .
+  449  git commit -m "add new application"
+  450  git log
+  451  cd ~/.ssh
+  452  ssh-keygen
+  453  cd ~/pictgram
+  454  cd pictgram
+  455  touch README.md
+  456  git init
+  457  git add README.md
+  458  git add .
+  459  git commit -m "first commit"
+  460  git log
+  461  git remote add origin https://github.com/shinyup213/pictgram.git
+  462  git push -u origin master
+  463  cd pictgram
+  464  git init
+  465  git remote add https://github.com/shinyup213/pictgram.git
+  466  git add .
+  467  git commit -m "add new application"
+  468  git push origin master
+  469  git init
+  470  git remote add https://github.com/shinyup213/pictgram.git
+  471  git add .
+  472  git commit -m "add new application"
+  473  git push origin master
+  474  rails g controller Session new
+  475  rails s
+  476  cd pictgram
+  477  rails s
+  478  cd pictgram
+  479  rails s
+  480  rails s
+  481  cd pictgram
+  482  rails s
+  483  git push origin master
+  484  rails s
+  485  cd pictgram 
+  486  rails s
+  487  cd pictgram
+  488  rails s
+  489  cd pictgaram
+  490  ccd pictgram
+  491  cd pictgram
+  492  rails g model Topic user_id:integer description:string image:string
+  493  rails db:migrate
+  494  rails g uploader image
+  495  bundle install
+  496  rails g uploader image
+  497  bundle install
+  498  rails g uploader image
+  499  cd pictgram
+  500  rails g controller topics new
+  501  rails s
+  502  cd pictgram
+  503  rails generate controller Sessions new
+  504  raails s
+  505  rails s
+  506  cd pictgram
+  507  rails s
+  508  cd pictgram
+  509  git init
+  510  git push origin master
+  511  git pull origin master
+  512  git push
+  513  rails s[
+  514  rails s
+  515  git push
+  516  git push origin master
+  517  git pull
+  518  git push -f origin master
+  519  git push origin master
+  520  rails s
+  521  cd pictgram
+  522  rails g controller Sessions new
+  523  cd pictgram
+  524  rails g controller Sessions new
+  525  rails s
+  526  cd pictgram
+  527  rails g model Topic user_id:integer description:string image:string
+  528  rails db:migrate
+  529  rails s
+  530  rails g controller topics new
+  531  cd pictgram
+  532  bundle install
+  533  rails s
+  534  cd pictgram
+  535  rails s
+  536  bundle install
+  537  rails g uploader image
+  538  rails s
+  539  rails-v
+  540  rails -v
+  541  cd pictgram
+  542  git init
+  543  git push origin master
+  544  rails g controller photos new
+  545  rails s
+  546  bundle install
+  547  rails s
+  548  git push origin master
+  549  git push
+  550  cd pictgram
+  551  rails g model favorite user_id:integer topic_id:integer
+  552  rails db:migrate
+  553  raols g controller favorites
+  554  rails g controller favorites
+  555  rails s
+  556  cd pictgram
+  557  rails s
+  558  git push origin master
+  559  git pull origin develop
+  560  git fetch
+  561  git merge
+  562  git pull origin develop
+  563  git clone https://github.com/shinyup213/pictgram
+  564  git branch
+  565  git log
+  566  git checkout -b a2abd8a39cc41a525cde505b424fcaab564dbec5
+  567  git push origin master
+  568  cd
+  569  cd techboost
+  570  cd pictgram
+  571  cd environment
+  572  cd pictgram
+  573  git push origin :branch-name
+  574  git push origin branch-name
+  575  git push origin :branch-name
+  576  git push origin master
+  577  git push
+  578  git push origin master
+  579  git status
+  580  git reset origin/master
+  581  git add -A
+  582  git diff --staged
+  583  cd pictgram
+  584  git commit
+  585  cd pictgram
+  586  git fetch -p
+  587  git merge origin/master
+  588  git pull origin master
+  589  git remote add origin git@github.com:shinyup213/pictgram
+  590  git pull origin master
+  591  git commit -m "first commit"
+  592  git pull origin master
+  593  git remote add origin git@github.com:shinyup213/pictgram.git.
+  594  git status
+  595  git add git@github.com:shinyup213/pictgram.git
+  596  git add -A
+  597  git commit -m "shinyup213"
+  598  mkdr github
+  599  mkdir github
+  600  cd github
+  601  mkdir pictgram
+  602  cd pictgram
+  603  git init
+  604  git add pictgram.txt
+  605  git add pictgram
+  606  git  add
+  607  git add .
+  608  git commit -m "pictgram"
+  609  git log
+  610  git commit -m "first commit"
+  611  git init
+  612  git add .
+  613  cd ~/.ssh
+  614  ssh-keygen
+  615  cat ~/.ssh/id_rsa.pub
+  616  cd ~/.ssh
+  617  ssh-keygen 
+  618  cat ~/.ssh/id_rsa.pub
+  619  ssh -T git@github.com
+  620  cd ~/environment/github/pictgram
+  621  git remote add origin git@github.com:shinyup213/pictgram.git
+  622  git push -u origin master
+  623  git commit -m "pictgram"
+  624  git commit -m"pictgram"
+  625  touch pictgram
+  626  git status
+  627  git add pictgram
+  628  git status
+  629  git commit -m "first commit"
+  630  git status
+  631  git log
+  632  git remote add origin git@github.com:shinyup213/pictgram.git
+  633  git push -u origin master
+  634  cd pictgram
+  635  git init
+  636  mkdir github
+  637  cd github
+  638  git init
+  639  git add pictgram
+  640  git commit -m "add new file"
+  641  git status
+  642  git add otigin https://github.com/shinyup213/pictgram.git
+  643  git add origin https://github.com/shinyup213/pictgram.git
+  644  git remote add origin https://github.com/shinyup213/pictgram.git
+  645  git push origin master
+  646  git push -f origin master
+  647  git pull
+  648  git fetch
+  649  git push origin/master
+  650  git merge origin/master
+  651  git pull
+  652  git fetch
+  653  git merge origin/master
+  654  git push origin master
+  655  git init
+  656  git add <pictgram>
+  657  git config --global user.name "shinyup213
+  658  git config --global user.name "shinyup213
+  659   git config --global user.name "shinyup213"
+  660  git config --global user.email "shinya@yup.jp"
+  661  mkdir github
+  662  cd github
+  663  cd
+  664  cdenvironment
+  665  cd environment
+  666  cd pictgram
+  667  git init
+  668  git add README.md
+  669  git commit -m "first commit"
+  670  git branch -M main
+  671  git remote add origin git@github.com:shinyup213/pictgram.git
+  672  git push -u origin main
+  673  cd pictgram
+  674  rails s
+  675  cd pictgram
+  676  rails s
+  677  git init
+  678  git push -m origin master
+  679  git push origin master
+  680  git push -u origin master
+  681  cd pictgram
+  682  rails s
+  683  cd pictgram
+  684  git log
+  685  git add .
+  686  git commit -m "first commit"
+  687  git remote add origin　https://github.com/shinyup213/pictgram
+  688  git push origin master
+  689  git push -u origin master
+  690  git push
+  691  cd pictgram
+  692  rails s
+  693  git push
+  694  git log
+  695  git push
+  696  git remote -v
+  697  cd pictgram
+  698  git add .
+  699  git push
+  700  git fetch --all
+  701  git branch -avv
+  702  git add .
+  703  git commit
+  704  git brunch
+  705  git branch
+  706  git push git@guthub.com/pictgram.git main:master
+  707  it push git@github.com/pictgram.git main:master
+  708  git push git@github.com/pictgram.git main:master
+  709  git add -A
+  710  git commit -m "first commit" -v
+  711  git push
+  712  rails s
+  713  git push
+  714  git add -A
+  715  git commit -m "first commit" -v
+  716  git push
+  717  rails s
+  718  rails g model comment user_id:integer topic_id:integer
+  719  rails db:migrate
+  720  rails g controller comments
+  721  rails s
+  722  cd pictgram
+  723  rails s
+  724  git add -A
+  725  git commit -m "first commit" -v
+  726  git push
+  727  cd pictgram
+  728  railas s
+  729  rails s
+  730  cd pictgram
+  731  rails s
+  732  cd pictgram
+  733  rails s
+  734  cd pictgram
+  735  rails g model comment user_id:integer topic_id:integer
+  736  rails db:migrate
+  737  rails g controller comments
+  738  rails s
+  739  cd pictgram
+  740  rails s
+  741  git add -A
+  742  git commit -m "first commit" -v
+  743  git push
+  744  rails s
+  745  bundle exec rails r ‘Rails.cache.clear’
+  746  rails tmp:clear
+  747  rails s
+  748  rails routes
+  749  rails s
+  750  cd pictgram
+  751  raols s
+  752  rails s
+  753  cd pictgram
+  754  rails s
+  755  cd pictagram
+  756  cd pictgram
+  757  rails s
+  758  git add -A
+  759  git commit -m "first commit" -v
+  760  git push
+  761  rails s
+  762  rails c
+  763  rails s
+  764  curl -OL https://cli-assets.heroku.com/heroku-linux-x64.tar.gz
+  765  tar zxf heroku-linux-x64.tar.gz && rm -f heroku-linux-x64.tar.gz
+  766  sudo mv heroku /usr/local/heroku
+  767  echo 'PATH=/usr/local/heroku/bin:$PATH' >> $HOME/.bash_profile
+  768  source $HOME/.bash_profile > /dev/null
+  769  heroku login --interactive
+  770  sudo yum install postgresql-devel
+  771  bundle install
+  772  git push
+  773  git add -A
+  774  git commit -m "first commit" -v
+  775  git push
+  776  heroku create
+  777  git add .
+  778  git commit -m "SHINYA"
+  779  git push heroku master
+  780  heroku run rails db:migrate
+  781  git push heroku master
+  782  git add -v
+  783  git add .
+  784  git commit -m "SHINYA"
+  785  git push heroku master
+  786  heroku run rails db:migrate
+  787  git commit -a -m "commit message"
+  788  git push heroku master
+  789  git add -A
+  790  git commit -m "commit message"
+  791  git push geroku master
+  792  git push heroku master
+  793  git add -A
+  794  git commit -m "commit message"
+  795  git push heroku master
+  796  heroku open
+  797  heroku login --interactive
+  798  curl -OL https://cli-assets.heroku.com/heroku-linux-x64.tar.gz
+  799  tar zxf heroku-linux-x64.tar.gz && rm -f heroku-linux-x64.tar.gz
+  800  sudo mv heroku /usr/local/heroku
+  801  echo 'PATH=/usr/local/heroku/bin:$PATH' >> $HOME/.bash_profile
+  802  source $HOME/.bash_profile > /dev/null
+  803  heroku logon --interactive
+  804  heroku login --interactive
+  805  cd pictgram
+  806  sudo yum install postgresql-devel
+  807  bundle install
+  808  heroku create
+  809  git add .
+  810  git commit -m "first commit"
+  811  git push heroku master
+  812  git commit -m "first commit" -v
+  813  git add -A
+  814  git commit -m "first commit" -v
+  815  git push heroku
+  816  heroku run rails db:migrate
+  817  heroku open
+  818  heroku run rake db:migrate
+  819  heroku open
+  820  heroku run rake db:migrate
+  821  heroku open
+  822  heroku log --tail
+  823  heroku logs --tail
+  824  rails s
+  825  cd pictgram
+  826  rails s
+  827  cd
+  828  cd environment
+  829  cd pictgram
+  830  rails s
+  831  bundle install
+  832  sudo yum install postgresql-devel
+  833  bundle install
+  834  rails s
+  835  sudo bundle install
+  836  rails s
+  837  bundle install
+  838  cd pictgram
+  839  rails s
+  840  bundle install
+  841  rails s
+  842  cd pictgram
+  843  rails s
+  844  cd pictgram
+  845  rails s
+  846  de -h
+  847  df -h
+  848  for i in /*; do echo $i; find $i |wc -l; done
+  849  for i in /home/*; do echo $i; find $i |wc -l; done
+  850  rails s
+  851  rails db:rollback
+  852  rails db:migrate
+  853  rails s
+  854  c
+  855  cd pictgram
+  856  rails s
+  857  curl -OL https://cli-assets.heroku.com/heroku-linux-x64.tar.gz
+  858  tar zxf heroku-linux-x64.tar.gz && rm -f heroku-linux-x64.tar.gz
+  859  sudo mv heroku /usr/local/heroku
+  860  echo 'PATH=/usr/local/heroku/bin:$PATH' >> $HOME/.bash_profile
+  861  sourcedf
+  862  df -i
+  863  find / -xdev -type f | cut -d "/" -f 2 | sort | uniq -c | sort -nr
+  864  find/usr -xdev -type f | cut -d "/" -f 3 | sort | uniq -c | sort -nr
+  865  find /usr -xdev -type f | cut -d "/" -f 3 | sort | uniq -c | sort -nr
+  866  find /local -xdev -type f | cut -d "/" -f 3 | sort | uniq -c | sort -nr
+  867  find /share -xdev -type f | cut -d "/" -f 3 | sort | uniq -c | sort -nr
+  868   find /usr -xdev -type f | cut -d "/" -f 3 | sort | uniq -c | sort -nr
+  869  find /local -xdev -type f | cut -d "/" -f 3 | sort | uniq -c | sort -nr
+  870  sudo rm -rf /usr/share
+  871  df -i
+  872  sudo rm -rf /usr/local
+  873  df -i
+  874  sudo rm -rf /usr/src
+  875  curl -OL https://cli-assets.heroku.com/heroku-linux-x64.tar.gz
+  876  tar zxf heroku-linux-x64.tar.gz && rm -f heroku-linux-x64.tar.gz
+  877  sudo mv heroku /usr/local/heroku
+  878  echo 'PATH=/usr/local/heroku/bin:$PATH' >> $HOME/.bash_profile
+  879  source $HOME/.bash_profile > /dev/null
+  880  heroku login --interactive
+  881  sudo mv heroku /usr/local/heroku
+  882   sudo mv heroku 
+  883   sudo mv heroku /usr/local/heroku
+  884  curl -OL https://cli-assets.heroku.com/heroku-linux-x64.tar.gz
+  885  tar zxf heroku-linux-x64.tar.gz && rm -f heroku-linux-x64.tar.gz
+  886  sudo mv heroku /usr/local/heroku
+  887  heroku create
+  888  $vi ~/.bashrc
+  889  PATH
+  890  wget https://cli-assets.heroku.com/heroku-cli/channels/stable/heroku-cli-linux-x64.tar.gz -O heroku.tar.gz
+  891  sudo mkdir -p /usr/local/lib/heroku
+  892  sudo tar --strip-components 1 -zxvf heroku.tar.gz -C /usr/local/lib/heroku
+  893  sudo ln -s /usr/local/lib/heroku/bin/heroku /usr/local/bin/heroku
+  894  sudo ln -s /usr/local/lib/heroku/bin/heroku /usr/local/heroku
+  895  heroku login
+  896  cd pictgram
+  897  heroku push
+  898  heroku login
+  899  heroku login --interactive
+  900  curl -OL https://cli-assets.heroku.com/heroku-linux-x64.tar.gz
+  901  tar zxf heroku-linux-x64.tar.gz && rm -f heroku-linux-x64.tar.gz
+  902  sudo mv heroku /usr/local/heroku
+  903  echo 'PATH=/usr/local/heroku/bin:$PATH' >> $HOME/.bash_profile
+  904  source $HOME/.bash_profile > /dev/null
+  905  heroku login --interactive
+  906  nvm install node
+  907  npm install -g heroku-cli
+  908  heroku login --interactive
+  909  tar zxf heroku-linux-x64.tar.gz && rm -f heroku-linux-x64.tar.gz
+  910  curl -OL https://cli-assets.heroku.com/heroku-linux-x64.tar.gz
+  911   tar zxf heroku-linux-x64.tar.gz && rm -f heroku-linux-x64.tar.gz
+  912  sudo mv heroku /usr/local/heroku
+  913  echo 'PATH=/usr/local/heroku/bin:$PATH' >> $HOME/.bash_profile
+  914  source $HOME/.bash_profile > /dev/null
+  915   heroku login --interactive
+  916  heroku login --interactive
+  917  exec $SHELL -l
+  918  heroku login --interactive
+  919  ll /usr/local
+  920  ll /usr/local/heroku
+  921  cat ~/.bash_profile
+  922  history | less -SN
